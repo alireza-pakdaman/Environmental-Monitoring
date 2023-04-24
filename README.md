@@ -23,7 +23,7 @@ The system is divided into four main parts: data collection, data processing, da
 The sensor node is equipped with temperature and humidity module, photo-resistor module, and water level sensor. The DS-1307 RTC module is used to timestamp the data. The sensor data is collected at a fixed interval and stored in the Arduino's memory.
 
 ### Data processing
-The collected data is processed by the Arduino Uno board. Basic processing, such as averaging, filtering, and normalization, is performed on the data. The processed data is then displayed on the LCD1602 module in real-time.
+The collected data is processed by the Arduino Mega board. Basic processing, such as averaging, filtering, and normalization, is performed on the data. The processed data is then displayed on the LCD1602 module in real-time.
 
 ### Data display
 The LCD1602 module is used to display the processed data. The display shows the current value of each environmental parameter being monitored. The display is updated at a fixed interval to show the latest readings.
